@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090a0f" />
+    <meta
+      name="description"
+      content="Play at your best with Reflex: practical PC optimization built for smoother gameplay, sharper response, and more confidence in every match."
+    />
+    <title>Reflex — Play at your peak</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header" id="home">
+        <a class="brand" href="#home" aria-label="Reflex home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none">
+              <path d="M5 23.5 13.1 7h5.8L27 23.5h-6l-5.1-10-5 10H5Z" fill="currentColor" />
+              <path d="M10.5 19.7h11" stroke="#111019" stroke-width="2" />
+            </svg>
+          </span>
+          <span>reflex<span class="brand-period">.</span></span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+          <span></span><span></span>
+        </button>
+
+        <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link" href="#products">Products</a>
+          <a class="nav-link" href="#community">Affiliate</a>
+          <a class="nav-link" href="#vouches">Vouches</a>
+          <a class="nav-link" href="#about">About us</a>
+          <a class="nav-link nav-login" href="#reviews">Login</a>
+          <a class="nav-cart" href="#products">
+            Cart <span class="cart-count" aria-label="0 items in cart">0</span>
+          </a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero section-wrap" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="eyebrow-pulse"></span> A sharper way to play</div>
+            <h1 id="hero-title">Faster.<br />Smoother.<br /><span>Sharper.</span></h1>
+            <p class="hero-description">
+              Make every frame feel more responsive. Reflex fine-tunes your PC for smoother gameplay,
+              lower input delay, steadier latency, and the confidence to play your way.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#products">
+                Get Reflex
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-4-4 4 4-4 4" /></svg>
+              </a>
+              <a class="button button-secondary" href="#features">Explore Reflex</a>
+            </div>
+            <div class="hero-proof">
+              <div class="avatar-stack" aria-hidden="true">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=80&amp;q=80" alt="" />
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=80&amp;q=80" alt="" />
+                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&amp;fit=crop&amp;w=80&amp;q=80" alt="" />
+              </div>
+              <div>
+                <div class="proof-stars" aria-label="5 out of 5 stars">★★★★★</div>
+                <span>Made for players who care</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="Gaming setup with live performance interface">
+            <div class="hero-image"></div>
+            <div class="visual-vignette"></div>
+            <div class="hero-image-label"><span class="live-dot"></span> YOUR SETUP. YOUR ADVANTAGE.</div>
+            <div class="hud-card hud-fps">
+              <span class="hud-label">FRAME RATE</span>
+              <div class="hud-value">240 <span>FPS</span></div>
+              <div class="hud-sparkline" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <span class="hud-caption">Smooth where it matters</span>
+            </div>
+            <div class="hud-card hud-latency">
+              <span class="hud-icon hud-icon-blue" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z" /></svg>
+              </span>
+              <div><span class="hud-label">SYSTEM RESPONSE</span><div class="latency-value">Low <span>· optimized</span></div></div>
+            </div>
+            <div class="visual-orbit orbit-one"></div>
+            <div class="visual-orbit orbit-two"></div>
+            <div class="visual-caption">PERFORMANCE, REFINED <span>01 — 04</span></div>
+          </div>
+          <a class="scroll-cue" href="#features"><span></span> Scroll to explore</a>
+        </section>
+
+        <section class="trust-strip" aria-label="Designed for every kind of player">
+          <span>BUILT FOR THE WAY YOU PLAY</span>
+          <div class="trust-logos">
+            <span class="trust-word trust-word-1">COMPETITIVE</span>
+            <span class="trust-word trust-word-2">CREATORS</span>
+            <span class="trust-word trust-word-3">EVERYDAY PLAYERS</span>
+            <span class="trust-word trust-word-4">YOUR NEXT WIN</span>
+          </div>
+        </section>
+
+        <section class="section section-wrap features-section" id="features">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow"><span class="eyebrow-dash"></span> FIND YOUR EDGE</div>
+              <h2>Every detail.<br /><span>Dialed in.</span></h2>
+            </div>
+            <p>Less friction between you and your best game. Thoughtful PC tuning built around what players actually feel.</p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-topline"><span class="feature-number">01 / PERFORMANCE</span><span class="feature-icon icon-purple"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19V9m7 10V5m7 14v-7M3 19h18" /></svg></span></div>
+              <h3>Increase FPS</h3>
+              <p>Trim unnecessary background load and give your favorite games more room to run.</p>
+              <a href="#results" class="text-link">See how it works <span>↗</span></a>
+              <span class="feature-glow glow-purple"></span>
+            </article>
+            <article class="feature-card">
+              <div class="feature-topline"><span class="feature-number">02 / CONNECTION</span><span class="feature-icon icon-blue"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 9a10 10 0 0 1 14 0M8 12a6 6 0 0 1 8 0m-5 3a2 2 0 0 1 2 0m-1 4h.01" /></svg></span></div>
+              <h3>Decrease ping</h3>
+              <p>Get a clearer picture of your connection and reduce avoidable network friction.</p>
+              <a href="#results" class="text-link">See how it works <span>↗</span></a>
+              <span class="feature-glow glow-blue"></span>
+            </article>
+            <article class="feature-card">
+              <div class="feature-topline"><span class="feature-number">03 / RESPONSIVENESS</span><span class="feature-icon icon-cyan"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h4l2.3-7 3.4 14 2.3-7H20" /></svg></span></div>
+              <h3>Reduce latency</h3>
+              <p>Fine-tune system settings to help your inputs feel more immediate and consistent.</p>
+              <a href="#results" class="text-link">See how it works <span>↗</span></a>
+              <span class="feature-glow glow-cyan"></span>
+            </article>
+            <article class="feature-card">
+              <div class="feature-topline"><span class="feature-number">04 / CONTROL</span><span class="feature-icon icon-pink"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.64 5.64l2.12 2.12m8.48 8.48 2.12 2.12m0-12.72-2.12 2.12m-8.48 8.48-2.12 2.12M12 9v6m-3-3h6" /></svg></span></div>
+              <h3>Boost your aim</h3>
+              <p>Build a setup that feels steady and responsive—so your practice can take the lead.</p>
+              <a href="#results" class="text-link">See how it works <span>↗</span></a>
+              <span class="feature-glow glow-pink"></span>
+            </article>
+          </div>
+        </section>
+
+        <section class="section section-wrap product-section" id="products">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow"><span class="eyebrow-dash"></span> THE REFLEX TOOLKIT</div>
+              <h2>Start free.<br /><span>Go further.</span></h2>
+            </div>
+            <p>Get the free Reflex Tweaks installer with no checkout. An optional paid toolkit is being prepared separately.</p>
+          </div>
+          <article class="free-download-card">
+            <div class="free-download-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 3v12m0 0 4.5-4.5M12 15l-4.5-4.5M4 17v3h16v-3" /></svg>
+            </div>
+            <div class="free-download-info">
+              <div class="free-download-kicker"><span>FREE DOWNLOAD</span><span class="free-download-badge">NO PAYMENT REQUIRED</span></div>
+              <h3>Reflex Tweaks Setup</h3>
+              <p>Download the Windows installer and get started with Reflex Tweaks.</p>
+              <div class="installer-meta"><span>Windows installer</span><span>464 KB</span><span>SHA-256 checksum</span></div>
+            </div>
+            <a class="button button-primary free-download-button" href="downloads/ReflexTweaks-Setup.msi" download="ReflexTweaks-Setup.msi">
+              Download free installer <span aria-hidden="true">↓</span>
+            </a>
+            <details class="installer-safety">
+              <summary>Installer details &amp; safety</summary>
+              <p>This installer is not digitally signed, so Windows may show an “Unknown publisher” warning. Only run it if you trust the source. Review the installer prompts carefully and consider creating a Windows restore point before applying system changes.</p>
+              <p class="installer-hash"><strong>SHA-256</strong> <code>DF02B1B118A1C30176E1E82B961E5880A94B4F0C00AF0DB5D95FEC0D24E1B231</code></p>
+            </details>
+          </article>
+          <article class="product-card">
+            <div class="product-art" aria-hidden="true">
+              <div class="product-art-grid"></div>
+              <div class="product-art-orbit product-art-orbit-one"></div>
+              <div class="product-art-orbit product-art-orbit-two"></div>
+              <div class="product-art-mark">R<span>.</span></div>
+              <div class="product-art-caption">REFLEX / OPTIMIZER</div>
+            </div>
+            <div class="product-info">
+              <div class="product-availability"><span></span> OPTIONAL PAID TOOLKIT · COMING SOON</div>
+              <h3>Reflex Optimizer</h3>
+              <p class="product-description">An optional expanded digital toolkit, planned separately from the free Reflex Tweaks installer.</p>
+              <ul class="product-includes">
+                <li><span>✓</span> Digital download for Windows</li>
+                <li><span>✓</span> Setup and restore guidance</li>
+                <li><span>✓</span> One-time purchase · no subscription</li>
+              </ul>
+              <div class="product-buy-row">
+                <div class="product-price"><strong>€19.99</strong><span>one-time</span></div>
+                <div class="product-checkout">
+                  <div id="paypal-buttons" aria-label="Pay with PayPal"></div>
+                  <button class="button button-primary product-disabled" id="product-unavailable" type="button" disabled>Coming soon</button>
+                  <p class="checkout-status" id="checkout-status" role="status" aria-live="polite">The digital toolkit is being prepared. Checkout will open when the download is ready.</p>
+                  <button class="retrieve-purchase" id="retrieve-purchase" type="button" hidden>Already purchased? Retrieve your download</button>
+                  <a class="button button-primary download-button" id="download-link" hidden>Download your toolkit <span>↓</span></a>
+                </div>
+              </div>
+              <p class="product-disclaimer">Paid download not available yet. PayPal checkout will stay disabled until the toolkit files are ready.</p>
+            </div>
+          </article>
+        </section>
+
+        <section class="section creator-section" id="about">
+          <div class="section-wrap creator-inner">
+            <div class="creator-copy">
+              <div class="eyebrow"><span class="eyebrow-dash"></span> GOOD COMPANY</div>
+              <h2>Made for the ones<br />who <span>show up.</span></h2>
+              <p>From ranked grinders to the friends who just logged on—Reflex is for anyone who wants their PC to feel like it’s on their side.</p>
+              <a class="button button-secondary" href="#community">Meet the community <span>↗</span></a>
+            </div>
+            <div class="creator-cards">
+              <article class="creator-card">
+                <img class="creator-avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=160&amp;h=160&amp;q=85" alt="Portrait of a gaming creator" />
+                <span class="creator-check" aria-label="Community profile">✓</span>
+                <div class="creator-quote-mark">“</div>
+                <p>My setup finally feels dialed in. I spend less time troubleshooting and more time in game.</p>
+                <div class="creator-person"><strong>NovaPlays</strong><span>FPS creator · Community member</span></div>
+              </article>
+              <article class="creator-card creator-card-offset">
+                <img class="creator-avatar" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=160&amp;h=160&amp;q=85" alt="Portrait of a competitive gamer" />
+                <span class="creator-check" aria-label="Community profile">✓</span>
+                <div class="creator-quote-mark">“</div>
+                <p>Quick to get started, easy to understand, and a genuinely nicer-feeling setup.</p>
+                <div class="creator-person"><strong>miles.exe</strong><span>Competitive player · Community member</span></div>
+              </article>
+              <span class="creator-decoration" aria-hidden="true">R/</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-wrap results-section" id="results">
+          <div class="section-heading results-heading">
+            <div>
+              <div class="eyebrow"><span class="eyebrow-dash"></span> THE PERFORMANCE LAB</div>
+              <h2>See the difference.<br /><span>Feel the game.</span></h2>
+            </div>
+            <p>Explore an example benchmark dashboard. Actual results vary with your PC, game settings, and network.</p>
+          </div>
+          <div class="results-dashboard">
+            <div class="dashboard-top">
+              <div><span class="dashboard-kicker">REFLEX PERFORMANCE OVERVIEW</span><h3>Your games, in focus.</h3></div>
+              <div class="benchmark-tag"><span></span> ILLUSTRATIVE BENCHMARK</div>
+            </div>
+            <div class="dashboard-columns">
+              <div class="benchmark-list">
+                <div class="benchmark-header"><span>GAME</span><span>BEFORE</span><span>AFTER</span><span>CHANGE</span></div>
+                <div class="benchmark-row">
+                  <div class="game-name"><span class="game-dot game-fortnite"></span>Fortnite</div><span class="fps-before">142 FPS</span><span class="fps-after">188 FPS</span><span class="fps-change">+32%</span>
+                  <div class="benchmark-track"><i style="--before: 48%; --after: 76%"></i></div>
+                </div>
+                <div class="benchmark-row">
+                  <div class="game-name"><span class="game-dot game-valorant"></span>Valorant</div><span class="fps-before">198 FPS</span><span class="fps-after">244 FPS</span><span class="fps-change">+23%</span>
+                  <div class="benchmark-track"><i style="--before: 61%; --after: 88%"></i></div>
+                </div>
+                <div class="benchmark-row">
+                  <div class="game-name"><span class="game-dot game-minecraft"></span>Minecraft</div><span class="fps-before">126 FPS</span><span class="fps-after">174 FPS</span><span class="fps-change">+38%</span>
+                  <div class="benchmark-track"><i style="--before: 43%; --after: 70%"></i></div>
+                </div>
+                <div class="benchmark-row">
+                  <div class="game-name"><span class="game-dot game-roblox"></span>Roblox</div><span class="fps-before">118 FPS</span><span class="fps-after">162 FPS</span><span class="fps-change">+37%</span>
+                  <div class="benchmark-track"><i style="--before: 39%; --after: 66%"></i></div>
+                </div>
+                <div class="benchmark-row">
+                  <div class="game-name"><span class="game-dot game-cod"></span>Call of Duty</div><span class="fps-before">106 FPS</span><span class="fps-after">143 FPS</span><span class="fps-change">+35%</span>
+                  <div class="benchmark-track"><i style="--before: 34%; --after: 61%"></i></div>
+                </div>
+                <div class="chart-legend"><span><i class="legend-before"></i>Before optimization</span><span><i class="legend-after"></i>After optimization</span></div>
+              </div>
+              <aside class="dashboard-aside">
+                <div class="aside-card aside-score">
+                  <div class="aside-card-heading"><span>PERFORMANCE SCORE</span><span class="info-dot" aria-label="Example score">i</span></div>
+                  <div class="score-dial"><div><strong data-count="87">0</strong><span>/ 100</span></div></div>
+                  <div class="score-foot"><span>System ready</span><span class="score-ready"></span></div>
+                </div>
+                <div class="aside-card hardware-card">
+                  <div class="aside-card-heading"><span>OPTIMIZATION SNAPSHOT</span><span>↗</span></div>
+                  <div class="hardware-line"><span>Frame stability</span><span>Improved</span></div>
+                  <div class="hardware-line"><span>System overhead</span><span>Reduced</span></div>
+                  <div class="hardware-line"><span>Input response</span><span>Fine-tuned</span></div>
+                  <div class="hardware-foot"><span class="snapshot-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span>READY TO PLAY</span></div>
+                </div>
+              </aside>
+            </div>
+            <p class="benchmark-note">Illustrative example only—not a guarantee of results. FPS depends on hardware, resolution, in-game settings, software, and test conditions.</p>
+          </div>
+        </section>
+
+        <section class="section reviews-section" id="reviews">
+          <div class="section-wrap">
+            <div class="section-heading review-heading">
+              <div><div class="eyebrow"><span class="eyebrow-dash"></span> WORD ON THE SERVER</div><h2>Players speak.<br /><span>We listen.</span></h2></div>
+              <div class="review-controls"><span class="review-counter"><b id="review-current">01</b> / 03</span><button type="button" id="review-prev" aria-label="Previous review">←</button><button type="button" id="review-next" aria-label="Next review">→</button></div>
+            </div>
+            <div class="review-window">
+              <div class="review-track" id="review-track">
+                <article class="review-card">
+                  <div class="review-card-top"><span class="review-stars">★★★★★</span><span class="review-category">SETUP EXPERIENCE</span></div>
+                  <blockquote>“I liked that I could see what was changing instead of clicking through a bunch of mystery settings. The whole setup process felt refreshingly straightforward.”</blockquote>
+                  <div class="review-author"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&amp;fit=crop&amp;w=96&amp;h=96&amp;q=80" alt="" /><div><strong>Jordan K.</strong><span>Community member · PC gamer</span></div><span class="review-badge">COMMUNITY</span></div>
+                </article>
+                <article class="review-card">
+                  <div class="review-card-top"><span class="review-stars">★★★★★</span><span class="review-category">EVERYDAY GAMING</span></div>
+                  <blockquote>“My older PC feels a lot less cluttered now. It’s easy to use, and I appreciate having the important options in one place.”</blockquote>
+                  <div class="review-author"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=96&amp;h=96&amp;q=80" alt="" /><div><strong>Alex M.</strong><span>Community member · Variety gamer</span></div><span class="review-badge">COMMUNITY</span></div>
+                </article>
+                <article class="review-card">
+                  <div class="review-card-top"><span class="review-stars">★★★★★</span><span class="review-category">COMPETITIVE PLAY</span></div>
+                  <blockquote>“It helped me get a better handle on my PC setup before ranked sessions. Clear explanations and no hard-to-follow technical rabbit holes.”</blockquote>
+                  <div class="review-author"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=96&amp;h=96&amp;q=80" alt="" /><div><strong>Sam R.</strong><span>Community member · FPS player</span></div><span class="review-badge">COMMUNITY</span></div>
+                </article>
+              </div>
+            </div>
+            <p class="review-disclaimer">Sample community-style feedback for this website preview. Individual experiences vary.</p>
+          </div>
+        </section>
+
+        <section class="section section-wrap vouches-section" id="vouches">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow"><span class="eyebrow-dash"></span> FROM THE COMMUNITY</div>
+              <h2>Real players.<br /><span>Real vouches.</span></h2>
+            </div>
+            <p>Share your experience with the community. Submissions are reviewed before they appear publicly.</p>
+          </div>
+          <div class="vouches-layout">
+            <form class="vouch-form" id="vouch-form">
+              <div class="vouch-form-heading"><span>ADD YOUR VOUCH</span><span class="vouch-lock">OPEN TO EVERYONE</span></div>
+              <label for="vouch-name">Your name or gamer tag</label>
+              <input id="vouch-name" name="name" type="text" maxlength="32" autocomplete="nickname" placeholder="e.g. pixelpilot" required />
+              <label for="vouch-game">Game you play <span>(optional)</span></label>
+              <input id="vouch-game" name="game" type="text" maxlength="40" placeholder="e.g. Valorant" />
+              <label for="vouch-message">Your vouch</label>
+              <textarea id="vouch-message" name="message" rows="4" maxlength="500" placeholder="What has your experience with Reflex been like?" required></textarea>
+              <input class="vouch-honeypot" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" />
+              <button class="button button-primary vouch-submit" type="submit">Send for review <span>↗</span></button>
+              <p class="vouch-form-note" id="vouch-status" role="status" aria-live="polite">Anyone can submit a vouch. It will be reviewed before publication.</p>
+            </form>
+            <div class="vouch-feed">
+              <div class="vouch-feed-heading"><span>PLAYER VOUCHES</span><span class="vouch-feed-status"><i></i><span>COMMUNITY SUBMISSIONS</span></span></div>
+              <div class="vouch-list" id="vouch-list" aria-live="polite">
+                <p class="vouch-empty">Loading community vouches…</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-wrap faq-section" id="faq">
+          <div class="faq-intro">
+            <div class="eyebrow"><span class="eyebrow-dash"></span> GOOD TO KNOW</div>
+            <h2>Questions?<br /><span>Fair enough.</span></h2>
+            <p>Clear answers, no guesswork. Still curious? Our community is always happy to help.</p>
+            <a class="text-link faq-contact" href="#community">Talk to our team <span>↗</span></a>
+          </div>
+          <div class="faq-list">
+            <article class="faq-item is-open">
+              <h3><button type="button" aria-expanded="true">Is Reflex safe to use on my PC?<span class="faq-plus"></span></button></h3>
+              <div class="faq-answer"><p>Reflex is designed to make its optimization steps clear. Review each change before applying it, keep your system up to date, and create a restore point before adjusting Windows settings.</p></div>
+            </article>
+            <article class="faq-item">
+              <h3><button type="button" aria-expanded="false">Is Reflex legitimate, and what does it change?<span class="faq-plus"></span></button></h3>
+              <div class="faq-answer"><p>Reflex focuses on PC setup and configuration—not game cheats, exploits, or gameplay automation. Check the product details before installing so you know exactly which settings are included.</p></div>
+            </article>
+            <article class="faq-item">
+              <h3><button type="button" aria-expanded="false">How much performance can I expect to gain?<span class="faq-plus"></span></button></h3>
+              <div class="faq-answer"><p>There is no one-size-fits-all FPS promise. Results depend on your hardware, software, game, and settings; some PCs may see little or no measurable change.</p></div>
+            </article>
+            <article class="faq-item">
+              <h3><button type="button" aria-expanded="false">What games and PCs are compatible?<span class="faq-plus"></span></button></h3>
+              <div class="faq-answer"><p>Compatibility depends on the product version and your Windows configuration. Review the current system requirements on the product page before you download.</p></div>
+            </article>
+            <article class="faq-item">
+              <h3><button type="button" aria-expanded="false">Where can I get help if I need it?<span class="faq-plus"></span></button></h3>
+              <div class="faq-answer"><p>Visit our community for setup advice and product questions. For account or purchase help, reach out through the support link in the footer.</p></div>
+            </article>
+          </div>
+        </section>
+
+        <section class="community-section section-wrap" id="community">
+          <div class="community-noise"></div>
+          <div class="community-content">
+            <div class="discord-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 36" fill="none"><path d="M39.1 3.6A38.4 38.4 0 0 0 29.5.7l-1.2 2.5a35 35 0 0 0-10.6 0L16.5.7A38.4 38.4 0 0 0 6.9 3.6C.8 12.7-.8 21.5 0 30.2a38.7 38.7 0 0 0 11.8 5.9l2.5-4.1a24 24 0 0 1-3.9-1.9l1-.8c7.6 3.5 15.8 3.5 23.2 0l1 .8a24 24 0 0 1-3.9 1.9l2.5 4.1A38.7 38.7 0 0 0 46 30.2c1-10.1-1.7-18.8-6.9-26.6ZM16.5 24.2c-2.3 0-4.2-2.1-4.2-4.7s1.9-4.7 4.2-4.7 4.2 2.1 4.2 4.7-1.9 4.7-4.2 4.7Zm15 0c-2.3 0-4.2-2.1-4.2-4.7s1.9-4.7 4.2-4.7 4.2 2.1 4.2 4.7-1.9 4.7-4.2 4.7Z" fill="currentColor"/></svg>
+            </div>
+            <div class="eyebrow"><span class="eyebrow-pulse"></span> THE PARTY DOESN'T END HERE</div>
+            <h2>Find your<br /><span>people.</span></h2>
+            <p>Game nights, setup tips, and a real human when you need a hand. Pull up a chair.</p>
+            <div class="community-meta"><div class="community-avatars"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=72&amp;q=80" alt="" /><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=72&amp;q=80" alt="" /><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&amp;fit=crop&amp;w=72&amp;q=80" alt="" /><span>+</span></div><span><strong>Good games. Better company.</strong><br />A community for every kind of player.</span></div>
+            <a class="button button-discord" href="https://discord.gg/rXHdgGKg2e" target="_blank" rel="noopener noreferrer">Join the community <span>↗</span></a>
+          </div>
+          <div class="community-art" aria-hidden="true">
+            <span class="community-ring ring-large"></span><span class="community-ring ring-small"></span>
+            <div class="community-orb"><span>R</span><i></i></div>
+            <div class="community-spark spark-one"></div><div class="community-spark spark-two"></div><div class="community-spark spark-three"></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="section-wrap">
+          <div class="footer-main">
+            <div class="footer-brand-column">
+              <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M5 23.5 13.1 7h5.8L27 23.5h-6l-5.1-10-5 10H5Z" fill="currentColor"/><path d="M10.5 19.7h11" stroke="#111019" stroke-width="2"/></svg></span><span>reflex<span class="brand-period">.</span></span></a>
+              <p>Make your setup feel like yours. Play at your peak.</p>
+              <div class="social-links"><a href="#community" aria-label="Discord">D</a><a href="#community" aria-label="X">𝕏</a><a href="#community" aria-label="Instagram">◎</a><a href="#community" aria-label="YouTube">▶</a></div>
+            </div>
+            <div class="footer-column"><h3>EXPLORE</h3><a href="#home">Home</a><a href="#features">Features</a><a href="#results">Performance lab</a><a href="#community">Affiliate</a></div>
+            <div class="footer-column"><h3>PRODUCTS</h3><a href="#products">Reflex Optimizer</a><a href="#results">How it works</a><a href="#products">Free tools</a><a href="#products">What's new</a></div>
+            <div class="footer-column"><h3>SUPPORT</h3><a href="#faq">Help center</a><a href="#community">Community</a><a href="#community">Contact us</a><a href="#faq">System requirements</a></div>
+            <div class="footer-column"><h3>THE DETAILS</h3><a href="#products">Privacy policy</a><a href="#products">Terms of service</a><a href="#products">Refund policy</a><a href="#products">Cookie settings</a></div>
+          </div>
+          <div class="footer-bottom"><span>© 2025 REFLEX. MADE FOR THE LOVE OF THE GAME.</span><span><i class="footer-status"></i> BUILT WITH PLAYERS IN MIND</span></div>
+        </div>
+      </footer>
+    </div>
+    <script src="supabase-config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
